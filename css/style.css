@@ -143,7 +143,7 @@ body{
 
 
 
-/* =============== BACK TO TOP PART START =============== */
+/* =============== PRELOADER PART START =============== */
 
 .preloader{
     position: fixed;
@@ -211,7 +211,7 @@ body{
     animation-delay: 1s;
 }
 
-/* =============== BACK TO TOP PART START =============== */
+/* =============== PRELOADER PART START =============== */
 
 
 
@@ -229,6 +229,8 @@ body{
     -o-border-radius: 50%;
     cursor: pointer;
     font-size: 40px;
+    height: 40px;
+    width: 40px;
     z-index: 100;
     display: none;
     transition: all 0.5s ease-in-out;
@@ -244,7 +246,7 @@ body{
 
 .back-to-top::after{
     position: absolute;
-    top: calc(54% - 1px);
+    top: 80%;
     left: 50%;
     height: 42px;
     width: 42px;
