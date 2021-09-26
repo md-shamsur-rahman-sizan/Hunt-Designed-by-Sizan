@@ -1,0 +1,99 @@
+sizing and spacing:
+-------------------
+
+banner clip-path - height left 700px, right 600px (85%)
+menu padding - 30px 0 (included in nav-link)
+nav-link padding - 50px 15px
+banner padding - top 250px, bottom 180px
+banner slick slider next prev icon - 40px
+about active dots - 20px, circle padding 25px
+portfolio, testimonial clip-path - 90%
+testimonial slick-active image - width 125px
+testimonial slick image - width 100px
+
+
+------------------
+texts and fonts:
+------------------
+
+font-family: 'Lato', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'WindSong', cursive;
+
+-----------------------------------------------
+
+Raleway_M (16px) - Home---About us---Our Portfolio---Testimonial---Pricing Plan---Contact us---View More---Hire Us---Join Now---1234, Parkstreet Avenue Newyork City, America.---+123 4567 8900, +123 0098 7654 +99 0712 36526, +99 3644 36842---hunt@admin.com, info@hunt.com personal-portfolio@hunt.com---www.hunt-personal-port.com www.portfolio-hunt.com---
+
+Raleway_R (36px) - We are Creative
+
+Raleway_B (55px) - Designer
+
+Open Sans_R (14px) - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. (banner)
+---Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the 1500s. (about, portfolio, service, pricing, team)
+---Lorem Ipsum is simply dummy text oftheg and typesetting industry. Loremumhaseen the industry's standardmy text ever since the 1500s. (about content top, bottom)
+---Lorem Ipsum is simply dummy text oftheg and  namtypesetting industry. Loremumhaseen the  my naindustry's standardmy text ever since the 1500s of the end. (about content left)
+---Lorem Ipsum is simply dummy text oftheg and typesetting industry. Loremumhaseen the nmy ustry's standardmy text ever since the my nam end of 1500s. (about content right)
+---Lorem Ipsum is simply dummy text of the printing and typtting industry. Lorem Ipsum has been the industry's standard y text ever since the 1500s, when an unknown printer took a galleye and scrambled it to make a type specimen book. It has surve nothing is impossible centuries. (service content 1,3)
+---Lorem Ipsum is simply dummy text of the printing and typtting Midustry. Lorem Ipsum has been the industry's standard when an unknown printer took a galleye and scrambled it to make a type specimen book. It has surve nothing is impossible centies my name is nothing..
+(service content 2)
+---Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing. (testimonial text)
+
+Raleway_R (35px) - About Us---Our Portfolio---Our Services---Pricing Plan---Our Team---
+
+Raleway_M (18px) - Who We Are?---What We Can?---What We Do?---Why Choose Us?---WEb Design---Graphic Design---Photography---
+
+Raleway_M (20px) - Mahadi Tahsan---Silver---Golden---Platinum---Adreeta Nipa---Ahsan Rana---Nadia Rahman---Jhon Smith---Follow Us---
+
+Raleway_R (16px) - Chairman/CEO---Founder---Chairman---Senior Member---Member---
+
+AutografPERSONALUSEONLY (20px) - Mahadi Tahsan
+
+Raleway_R (29px) - $ 29---$ 69---$ 89---
+
+Raleway_L (12px) - Per Month
+
+Lato_R (13px) - Copyright  2017.All rights reserved by HUNT.
+
+
+Open Sans_R (14px)
+------------------
+Android Application
+iOS Application
+UX/UI Designs
+Wordpress Develope
+XML
+
+Android Application
+iOS Application
+UX/UI Designs
+Wordpress Develope
+HTML4
+
+Android Application
+iOS Application
+UX/UI Designs
+Wordpress Develope
+HTML5
+
+Raleway_M (30px) - 230---330---130---430---530
+Raleway_M (20px) - Total Clients---Satisfied Clients---Reviewed Client---Cup of Tea---Milestone Client
+
+
+
+
+----------------------
+colors:
+----------------------
+
+#fec600 (all orange)
+#eeeeee (about contents bg, service icon bg)
+#353535 (about circle and dots)
+#111111 (text)
+#f1f1f1 (service contents bg, testimonial content bg, team image bg, brands bg)
+#ebebeb (testimonial image bg)
+#222222 (footer bg)
+#353535 (foot bg)

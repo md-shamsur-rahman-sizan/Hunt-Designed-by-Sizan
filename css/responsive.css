@@ -1,0 +1,1597 @@
+/*      ============================== ==============================
+                     ORIGINALLY DESIGNED FOR XXL DEVICES
+        ============================== ==============================     */
+
+
+
+/*      ==============================
+             XL DEVICE PART START
+        ==============================      */
+
+@media(min-width: 1200px) and (max-width: 1399px){
+
+
+    /* =============== BANNER PART START =============== */
+
+    #banner .banner-image{
+        padding-top: 340px;
+        padding-bottom: 340px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 53px;
+    }
+
+    /* =============== BANNER PART END =============== */
+
+
+    /* =============== ABOUT PART START =============== */
+
+    .head h3{
+	    font-size: 34px;
+    }
+
+    .head p{
+        padding: 15px 280px;
+    }
+
+    #about .about-image{
+        text-align: center;
+    }
+
+    #about .about-image::before{
+        width: 94%;
+        height: 118%;
+    }
+
+    #about .about-image::after{
+        width: 80%;
+    }
+
+    #about .about-image img{
+        width: 80% !important;
+    }
+
+    #about .about-content .about-top::after{
+        right: -27px;
+        bottom: -27px;
+    }
+
+    #about .about-content .about-right::after{
+        bottom: -29px;
+        left: -29px;
+    }
+
+    #about .about-content .about-bottom::after{
+        top: -27px;
+        left: -27px;
+    }
+
+    #about .about-content .about-left::after{
+        top: -29px;
+        right: -29px;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+    /* =============== TESTIMONIAL PART START =============== */
+
+    #testimonial .test-width{
+        width: 100%;
+    }
+
+    #testimonial .testimonial .slide-button{
+        width: 164px;
+    }
+
+    /* =============== TESTIMONIAL PART END =============== */
+
+
+    /* =============== TEAM PART START =============== */
+
+    #team .row .col-xxl-3:nth-child(3) .team-member .team-image img{
+        margin-left: -40px;
+    }
+
+    /* =============== TEAM PART END =============== */
+
+
+}
+
+/*      ==============================
+              XL DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             LG DEVICE PART START
+        ==============================      */
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+
+    /* =============== BANNER PART START =============== */
+
+    #banner .banner-image{
+        padding-top: 320px;
+        padding-bottom: 320px;
+    }
+
+    #banner .banner-text h2{
+        font-size: 34px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 51px;
+    }
+
+    #banner .next-banner:hover,.prev-banner:hover{
+        width: 12%;
+    }
+
+    /* =============== BANNER PART END =============== */
+
+
+    /* =============== ABOUT PART START =============== */
+
+    .head h3{
+	    font-size: 32px;
+    }
+
+    .head p{
+        padding: 15px 180px;
+    }
+
+    #about .about-content{
+        padding: 25px 15px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    #about .about-content h4{
+        font-size: 17px;
+    }
+
+    #about .about-content p{
+        padding-top: 10px;        
+    }
+
+    #about .about-image{
+        text-align: center;
+    }
+
+    #about .about-image::before{
+        width: 90%;
+        height: 118%;
+    }
+
+    #about .about-image::after{
+        width: 75%;
+    }
+
+    #about .about-image img{
+        width: 75% !important;
+    }
+
+    #about .about-content .about-right,
+    #about .about-content .about-left{
+        z-index: -1;
+    }
+
+    #about .about-content .about-top::after{
+        right: -30px;
+        bottom: -30px;
+    }
+
+    #about .about-content .about-bottom::after{
+        top: -30px;
+        left: -30px;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+    /* =============== SERVICE PART START =============== */
+
+    #services .service .slick-slide .service-contents{
+        opacity: 0;
+    }
+
+    #services .service .slick-active .service-contents{
+        opacity: 1;
+    }
+
+    /* =============== SERVICE PART END =============== */
+
+
+    /* =============== TESTIMONIAL PART START =============== */
+
+    #testimonial .test-width{
+        width: 100%;
+    }
+
+    #testimonial .testimonial .slide-button{
+        width: 134px;
+    }
+
+    /* =============== TESTIMONIAL PART END =============== */
+
+
+    /* =============== SHORTCODES PART START =============== */
+
+    #shortcodes .shortcodes-counter .shortcodes h6{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    /* =============== SHORTCODES PART END =============== */
+
+
+    /* =============== TEAM PART START =============== */
+
+    #team .row .col-xxl-3:nth-child(3) .team-member .team-image img{
+        margin-left: -60px;
+    }
+
+    /* =============== TEAM PART END =============== */
+
+
+    /* =============== FOOTER PART START =============== */
+
+    #footer #contact .contact-details .contact-address{
+        padding: 20px 0 0;
+    }
+
+    #footer #contact .contact-details .contact-address span{
+        font-size: 13px;
+    }
+
+    /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              LG DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             MD DEVICE PART START
+        ==============================      */
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+    /* =============== MENU PART START =============== */
+
+    .theme-button{
+        position: absolute;
+        right: 1%;
+        top: 30px;
+    }
+
+    #menu .navbar-brand img{
+	    width: 75%;
+    }
+
+    #menu .navbar-toggler{
+        box-shadow: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #menu .navbar-nav{
+        background-color: rgb(34, 34, 34);
+        height: 100vh;
+        text-align: center;
+    }
+
+    #menu .navbar-nav .nav-item .nav-link{
+	    padding: 15px 10px;
+        display: inline-block;
+    }
+
+    #menu .navbar-nav .nav-item .nav-link::after{
+	    bottom: 0;
+    }
+
+    .menu-background .theme-button{
+        top: 20px !important;
+    }
+
+    .menu-background .navbar-nav .nav-item{
+        padding: 5px 0 !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link::after{
+        bottom: 0 !important;
+        top: auto !important;
+        left: 0 !important;
+        right: 0 !important;
+        height: 0 !important;
+        width: 100% !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link:hover::after{
+        bottom: auto !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link.active::after{
+        bottom: auto !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+
+    /* =============== MENU PART END =============== */
+
+
+    /* =============== BANNER PART START =============== */
+
+    #banner .banner-image{
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+    #banner .banner-text h2{
+        font-size: 32px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 48px;
+    }
+
+    #banner .banner-text p{
+        padding: 10px 0 0;
+    }
+
+    #banner .next-banner:hover,.prev-banner:hover{
+        width: 15%;
+    }
+
+    /* =============== BANNER PART END =============== */
+
+
+    /* =============== ABOUT PART START =============== */
+
+    .head h3{
+	    font-size: 30px;
+    }
+
+    .head p{
+        padding: 15px 120px;
+    }
+
+    #about .about-content{
+        padding: 25px 15px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    #about .about-content h4{
+        font-size: 17px;
+    }
+
+    #about .about-content p{
+        padding-top: 10px;        
+    }
+
+    #about .about-image{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    #about .about-image::before{
+        width: 87%;
+        height: 115%;
+    }
+
+    #about .about-image::after{
+        width: 75%;
+    }
+
+    #about .about-image img{
+        width: 75% !important;
+    }
+
+    #about .about-content .about-right,
+    #about .about-content .about-left{
+        z-index: -1;
+    }
+
+    #about .about-content .about-top::after{
+        right: -30px;
+        bottom: -30px;
+    }
+
+    #about .about-content .about-bottom::after{
+        top: -30px;
+        left: -30px;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+    /* =============== SERVICE PART START =============== */
+
+    #services .service .service-contents .service-text{
+        padding: 20px;
+    }
+
+    #services .service .slick-slide .service-contents{
+        opacity: 0;
+    }
+
+    #services .service .slick-active .service-contents{
+        opacity: 1;
+    }
+
+    /* =============== SERVICE PART END =============== */
+
+
+    /* =============== TESTIMONIAL PART START =============== */
+
+    #testimonial .testimonial-text{
+        margin-left: 0;
+    }
+
+    #testimonial .test-width{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    #testimonial .testimonial .slide-button{
+        height: 310px;
+        width: 100%;
+        top: 260px;
+        left: 0;
+    }
+
+    #testimonial .testimonial-nav::after{
+        height: 146%;
+        top: 54%;
+    }
+
+    #testimonial .testimonial-text::after{
+        display: none;
+    }
+
+    /* =============== TESTIMONIAL PART END =============== */
+
+
+    /* =============== PRICE PART START =============== */
+
+    #pricing .pricing-plan .plan-head{
+        padding-top: 15px;
+        padding-bottom: 60px;
+    }
+
+    #pricing .pricing-plan .pricing-features{
+        padding: 5px 0;
+    }
+
+    #pricing .pricing-plan .pricing-features ul li{
+        padding-bottom: 5px;
+    }
+
+    #pricing .pricing-plan .pricing-button{
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    /* =============== PRICE PART END =============== */
+
+
+    /* =============== SHORTCODES PART START =============== */
+
+    #shortcodes .shortcodes-counter .shortcodes h6 {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    #shortcodes .clip-top,
+    #shortcodes .clip-bottom{
+        height: 50px;
+    }
+
+    /* =============== SHORTCODES PART END =============== */
+
+
+    /* =============== TEAM PART START =============== */
+
+    #team{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #team .team-member{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        
+    }
+
+    #team .team-member .team-text{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #team .team-member .team-text h4{
+        font-size: 18px;
+    }
+
+    #team .team-member .team-text h5{
+        font-size: 14px;
+    }
+
+    #team .team-member:hover .team-text ul{
+        padding-top: 15px;
+    }
+
+    #team .row .col-xxl-3:nth-child(3) .team-member .team-image img{
+        margin-left: -45px;
+    }
+
+    /* =============== TEAM PART END =============== */
+
+
+    /* =============== BRANDS PART START =============== */
+
+    #brands .clip-top,
+    #brands .clip-bottom{
+        height: 75px;
+    }
+
+    /* =============== BRANDS PART END =============== */
+
+
+    /* =============== FOOTER PART START =============== */
+
+    #footer #contact{
+        padding: 0;
+    }
+
+    #footer #contact .contact-details{
+        border-right: none;
+        padding: 30px 0;
+        position: relative;
+    }
+
+    #footer #contact .contact-details::after{
+        content: '';
+        position: absolute;
+    }
+
+    #footer #contact .contact-details:nth-child(1)::after,
+    #footer #contact .contact-details:nth-child(4)::after{
+        height: 80%;
+        width: 1px;
+    }
+
+    #footer #contact .contact-details:nth-child(2)::after,
+    #footer #contact .contact-details:nth-child(3)::after{
+        height: 1px;
+        width: 80%;
+    }
+
+    #footer #contact .contact-details:nth-child(1)::after{
+        right: 0;
+        bottom: 10%;
+        border-right: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details:nth-child(2)::after{
+        bottom: 0;
+        left: 10%;
+        border-bottom: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details:nth-child(3)::after{
+        top: 0;
+        right: 10%;
+        border-top: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details:nth-child(4)::after{
+        top: 10%;
+        left: 0;
+        border-left: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details .contact-address{
+        padding: 20px 0px 0;
+    }
+
+    /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              MD DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             SM DEVICE PART START
+        ==============================      */
+
+@media(min-width: 576px) and (max-width: 767px){
+
+
+    /* =============== CLIP PART START =============== */
+
+    .clip-top, .clip-bottom{
+        height: 50px;
+    }
+
+    /* =============== CLIP PART END =============== */
+
+
+    /* =============== MENU PART START =============== */
+
+    .theme-button{
+        position: absolute;
+        right: 1%;
+        top: 30px;
+    }
+
+    #menu .navbar-brand img{
+	    width: 75%;
+    }
+
+    #menu .navbar-toggler{
+        box-shadow: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #menu .navbar-nav{
+        background-color: rgb(34, 34, 34);
+        height: 100vh;
+        text-align: center;
+    }
+
+    #menu .navbar-nav .nav-item .nav-link{
+	    padding: 15px 10px;
+        display: inline-block;
+    }
+
+    #menu .navbar-nav .nav-item .nav-link::after{
+	    bottom: 0;
+    }
+
+    .menu-background .theme-button{
+        top: 20px !important;
+    }
+
+    .menu-background .navbar-nav .nav-item{
+        padding: 5px 0 !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link::after{
+        bottom: 0 !important;
+        top: auto !important;
+        left: 0 !important;
+        right: 0 !important;
+        height: 0 !important;
+        width: 100% !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link:hover::after{
+        bottom: auto !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link.active::after{
+        bottom: auto !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+
+    /* =============== MENU PART END =============== */
+
+
+    /* =============== BANNER PART START =============== */
+
+    #banner{
+	    clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
+    }
+
+    #banner .banner-image{
+        padding-top: 260px;
+        padding-bottom: 260px;
+    }
+
+    #banner .banner-text{
+        width: 100%;
+    }
+
+    #banner .banner-text h2{
+        font-size: 28px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 42px;
+    }
+
+    #banner .banner-text p{
+        font-size: 13px;
+        padding: 10px 50px 0;
+    }
+
+    #banner .banner-text .banner-button a{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #banner .next-banner, .prev-banner{
+        display: none !important;
+    }
+
+    /* =============== BANNER PART END =============== */
+
+
+    /* =============== ABOUT PART START =============== */
+
+    .head h3{
+	    font-size: 28px;
+    }
+
+    .head p{
+        font-size: 13px;
+        padding: 10px 0;
+    }
+
+    #about .about-content{
+        padding: 25px 15px;
+        text-align: center !important;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    #about .about-content h4{
+        font-size: 17px;
+    }
+
+    #about .about-content p{
+        font-size: 13px;
+        padding-top: 10px;
+        margin-bottom: 0;
+        text-align: justify;
+    }
+
+    #about .about-content .about-top,
+    #about .about-content .about-right,
+    #about .about-content .about-bottom,
+    #about .about-content .about-left{
+        display: none;
+    }
+
+    #about .about-image{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    #about .about-image::before{
+        width: 84%;
+        height: 112%;
+    }
+
+    #about .about-image::after{
+        width: 75%;
+    }
+
+    #about .about-image img{
+        width: 75% !important;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+    /* =============== PORTFOLIO PART START =============== */
+
+    #portfolio .portfolio-images .portfolio-image{
+        margin: 0 auto;
+        margin-bottom: 30px !important;
+    }
+
+    /* =============== PORTFOLIO PART END =============== */
+
+
+    /* =============== SERIVCE PART START =============== */
+
+    #services .service .next-service,
+    #services .service .prev-service{
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #services .service .prev-service{
+        line-height: 26px;
+    }
+
+    #services .service .service-contents .content-right::after,
+    #services .service .service-contents .content-left::after{
+        display: none;
+    }
+
+    #services .service .service-contents .service-title{
+        text-align: center !important;
+        background-color: var(--primary-color);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #services .service .service-contents .service-text{
+        padding: 30px 20px;
+        text-align: center !important;
+    }
+
+    #services .service .service-contents .service-text p{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    #services .service .service-contents .xs-padding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #services .service .slick-center .service-contents .content-right,
+    #services .service .slick-center .service-contents .content-left{
+        filter: drop-shadow(0 2px 3px var(--text-color));
+        -webkit-filter: drop-shadow(0 2px 3px var(--text-color));
+    }
+
+    #services .service::after{
+        height: calc(100% - 70px);
+    }
+
+    /* =============== SERIVCE PART END =============== */
+
+
+    /* =============== TESTIMONIAL PART START =============== */
+
+    #testimonial{
+        padding-bottom: 100px;
+    }
+
+    #testimonial .testimonial-text{
+        padding: 25px 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #testimonial .testimonial-text h4{
+        font-size: 18px;
+    }
+
+    #testimonial .testimonial-text h5{
+        font-size: 15px;
+    }
+
+    #testimonial .testimonial-text p{
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    #testimonial .testimonial-text .testimonial-ratings svg{
+        font-size: 14px;
+    }
+
+    #testimonial .test-width{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    #testimonial .testimonial .slide-button{
+        height: 300px;
+        width: 100%;
+        top: 254px;
+        left: 0;
+    }
+
+    #testimonial .testimonial .slide-button .next-testimonial,
+    #testimonial .testimonial .slide-button .prev-testimonial{
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+
+    #testimonial .testimonial .slide-button .next-testimonial{
+        bottom: 0;
+        line-height: 28px;
+    }
+
+    #testimonial .testimonial .slide-button .prev-testimonial{
+        top: 0;
+        line-height: 26px;
+    }
+
+    #testimonial .testimonial-nav::after{
+        height: 150%;
+    }
+
+    #testimonial .testimonial-text::after{
+        display: none;
+    }
+
+    /* =============== TESTIMONIAL PART END =============== */
+
+
+    /* =============== PRICE PART START =============== */
+
+    #pricing .pricing-plan{
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    /* =============== PRICE PART END =============== */
+
+
+    /* =============== SHORTCODES PART START =============== */
+
+    #shortcodes{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #shortcodes .shortcodes-counter .shortcodes{
+        margin: 10px auto;
+    }
+
+    /* =============== SHORTCODES PART END =============== */
+
+
+    /* =============== TEAM PART START =============== */
+
+    #team{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #team .team-member{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    #team .team-member .team-text{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #team .team-member .team-text h4{
+        font-size: 18px;
+    }
+
+    #team .team-member .team-text h5{
+        font-size: 14px;
+    }
+
+    #team .team-member:hover .team-text ul{
+        padding-top: 15px;
+    }
+
+    #team .row .col-xxl-3:nth-child(3) .team-member .team-image img{
+        margin-left: -45px;
+    }
+
+    /* =============== TEAM PART END =============== */
+
+
+    /* =============== BRANDS PART START =============== */
+
+    #brands{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #brands .brands .brand{
+        margin: 10px auto;
+    }
+
+    /* =============== BRANDS PART END =============== */
+
+
+    /* =============== FOOTER PART START =============== */
+
+    #footer .footer-logo{
+        padding-top: 20px;
+    }
+
+    #footer #contact{
+        padding: 0;
+    }
+
+    #footer #contact .contact-details{
+        border-right: none;
+        padding: 30px 0;
+        position: relative;
+    }
+
+    #footer #contact .contact-details::after{
+        content: '';
+        position: absolute;
+    }
+
+    #footer #contact .contact-details:nth-child(1)::after,
+    #footer #contact .contact-details:nth-child(4)::after{
+        height: 80%;
+        width: 1px;
+    }
+
+    #footer #contact .contact-details:nth-child(2)::after,
+    #footer #contact .contact-details:nth-child(3)::after{
+        height: 1px;
+        width: 80%;
+    }
+
+    #footer #contact .contact-details:nth-child(1)::after{
+        right: 0;
+        bottom: 10%;
+        border-right: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details:nth-child(2)::after{
+        bottom: 0;
+        left: 10%;
+        border-bottom: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details:nth-child(3)::after{
+        top: 0;
+        right: 10%;
+        border-top: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details:nth-child(4)::after{
+        top: 10%;
+        left: 0;
+        border-left: 1px solid rgba(254, 198, 0, 0.25);
+    }
+
+    #footer #contact .contact-details .contact-address{
+        padding: 20px 0px 0;
+    }
+
+    /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              SM DEVICE PART END
+        ==============================      */
+
+
+
+/*      ==============================
+             XS DEVICE PART START
+        ==============================      */
+
+@media(max-width: 575px){
+
+
+    /* =============== BACK TO TOP PART START =============== */
+
+    .back-to-top{
+        opacity: 0.25;
+    }
+
+    .back-to-top:hover{
+        opacity: 1;
+    }
+
+    /* =============== BACK TO TOP PART END =============== */
+
+
+    /* =============== CLIP PART START =============== */
+
+    .clip-top, .clip-bottom{
+        height: 50px;
+    }
+
+    /* =============== CLIP PART END =============== */
+
+
+    /* =============== MENU PART START =============== */
+
+    .theme-button{
+        position: absolute;
+        right: 15%;
+        top: 30px;
+    }
+
+    #menu .navbar-brand img{
+	    width: 75%;
+    }
+
+    #menu .navbar-toggler{
+        box-shadow: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #menu .navbar-nav{
+        background-color: rgb(34, 34, 34);
+        height: 100vh;
+        text-align: center;
+    }
+
+    #menu .navbar-nav .nav-item .nav-link{
+	    padding: 15px 10px;
+        display: inline-block;
+    }
+
+    #menu .navbar-nav .nav-item .nav-link::after{
+	    bottom: 0;
+    }
+
+    .menu-background .theme-button{
+        top: 20px !important;
+    }
+
+    .menu-background .navbar-nav .nav-item{
+        padding: 5px 0 !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link::after{
+        bottom: 0 !important;
+        top: auto !important;
+        left: 0 !important;
+        right: 0 !important;
+        height: 0 !important;
+        width: 100% !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link:hover::after{
+        bottom: auto !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+
+    .menu-background .navbar-nav .nav-item .nav-link.active::after{
+        bottom: auto !important;
+        top: 0 !important;
+        height: 100% !important;
+    }
+
+    /* =============== MENU PART END =============== */
+
+
+    /* =============== BANNER PART START =============== */
+
+    #banner{
+	    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    }
+
+    #banner .banner-image{
+        padding-top: 240px;
+        padding-bottom: 240px;
+    }
+
+    #banner .banner-text{
+        width: 100%;
+    }
+
+    #banner .banner-text h2{
+        font-size: 26px;
+    }
+
+    #banner .banner-text h1{
+        font-size: 39px;
+    }
+
+    #banner .banner-text p{
+        font-size: 12px;
+        padding: 10px 0 0;
+        max-width: 425px;
+        margin: 0 auto;
+    }
+
+    #banner .banner-text .banner-button a{
+        padding: 6px 14px;
+        font-size: 14px;
+    }
+
+    #banner .next-banner, .prev-banner{
+        display: none !important;
+    }
+
+    /* =============== BANNER PART END =============== */
+
+
+    /* =============== ABOUT PART START =============== */
+
+    .head h3{
+	    font-size: 26px;
+    }
+
+    .head p{
+        font-size: 12px;
+        padding: 10px 0;
+        max-width: 425px;
+        margin: 0 auto;
+    }
+
+    #about .about-content {
+        padding: 25px 5px;
+        text-align: center !important;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    #about .about-content h4{
+        font-size: 16px;
+    }
+
+    #about .about-content p{
+        font-size: 11px;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+
+    #about .about-content .about-top,
+    #about .about-content .about-right,
+    #about .about-content .about-bottom,
+    #about .about-content .about-left{
+        display: none;
+    }
+
+    #about .about-image{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    #about .about-image::before{
+        width: 84%;
+        height: 112%;
+    }
+
+    #about .about-image::after{
+        width: 75%;
+    }
+
+    #about .about-image img{
+        width: 75% !important;
+    }
+
+    /* =============== ABOUT PART END =============== */
+
+
+    /* =============== PORTFOLIO PART START =============== */
+
+    #portfolio .portfolio-images .portfolio-image{
+        margin: 0 auto 15px;
+        max-width: 222px;
+    }
+
+    /* =============== PORTFOLIO PART END =============== */
+
+
+    /* =============== SERIVCE PART START =============== */
+
+    #services .service .next-service,
+    #services .service .prev-service{
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #services .service .service-contents .content-right::after,
+    #services .service .service-contents .content-left::after{
+        display: none;
+    }
+
+    #services .service .service-contents .service-title{
+        text-align: center !important;
+        background-color: var(--primary-color);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #services .service .service-contents .service-text{
+        padding: 30px 20px;
+        text-align: center !important;
+    }
+
+    #services .service .service-contents .service-text p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    #services .service .service-contents .xs-padding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #services .service .slick-center .service-contents .content-right,
+    #services .service .slick-center .service-contents .content-left{
+        filter: drop-shadow(0 2px 3px var(--text-color));
+        -webkit-filter: drop-shadow(0 2px 3px var(--text-color));
+    }
+
+    #services .service::after{
+        height: calc(100% - 60px);
+    }
+
+    /* =============== SERIVCE PART END =============== */
+
+
+    /* =============== TESTIMONIAL PART START =============== */
+
+    #testimonial{
+        padding-bottom: 100px;
+    }
+
+    #testimonial .testimonial-text{
+        padding: 25px 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #testimonial .testimonial-text h4{
+        font-size: 16px;
+    }
+
+    #testimonial .testimonial-text h5{
+        font-size: 14px;
+    }
+
+    #testimonial .testimonial-text p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    #testimonial .testimonial-text .testimonial-ratings svg{
+        font-size: 12px;
+    }
+
+    #testimonial .test-width{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    #testimonial .testimonial .slide-button{
+        height: 300px;
+        width: 100%;
+        top: 254px;
+        left: 0;
+    }
+
+    #testimonial .testimonial .slide-button .next-testimonial,
+    #testimonial .testimonial .slide-button .prev-testimonial{
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+
+    #testimonial .testimonial .slide-button .next-testimonial{
+        bottom: 0;
+        line-height: 28px;
+    }
+
+    #testimonial .testimonial .slide-button .prev-testimonial{
+        top: 0;
+        line-height: 26px;
+    }
+
+    #testimonial .testimonial-nav::after{
+        height: 150%;
+    }
+
+    #testimonial .testimonial-text::after{
+        display: none;
+    }
+
+    /* =============== TESTIMONIAL PART END =============== */
+
+
+    /* =============== PRICE PART START =============== */
+
+    #pricing .pricing-plan{
+        margin: 10px auto;
+        max-width: 222px;
+    }
+
+    #pricing .pricing-plan .plan-head{
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    #pricing .pricing-plan .plan-head h4{
+        font-size: 16px;
+    }
+
+    #pricing .pricing-plan .plan-head .pricing-clip-top{
+        height: 25px;
+    }
+
+    #pricing .pricing-plan .plan-price .price-text h2{
+        font-size: 23px;
+    }
+
+    #pricing .pricing-plan .plan-price .price-text span{
+        font-size: 10px;
+        margin-top: -25px;
+    }
+
+    #pricing .pricing-plan .plan-price .price-text{
+        height: 70px;
+        width: 70px;
+        top: -120%;
+    }
+
+    #pricing .pricing-plan .plan-price .price-text::after{
+        height: 68px;
+        width: 68px;
+    }
+
+    #pricing .pricing-plan .pricing-features{
+        padding: 5px 0;
+    }
+
+    #pricing .pricing-plan .pricing-features ul li{
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    #pricing .pricing-plan .pricing-button{
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    #pricing .pricing-plan .pricing-button .pricing-clip-bottom{
+        top: 0;
+        height: 25px;
+    }
+
+    #pricing .pricing-plan .pricing-button a{
+        font-size: 14px;
+    }
+
+    /* =============== PRICE PART END =============== */
+
+
+    /* =============== SHORTCODES PART START =============== */
+
+    #shortcodes{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #shortcodes .clip-top,
+    #shortcodes .clip-bottom{
+        max-height: 31px;
+    }
+
+    #shortcodes .shortcodes-counter .shortcodes{
+        margin: 10px auto;
+        max-width: 222px;
+    }
+
+    /* =============== SHORTCODES PART END =============== */
+
+
+    /* =============== TEAM PART START =============== */
+
+    #team{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #team .team-member{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        max-width: 222px;
+    }
+
+    #team .team-member .team-text{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #team .team-member .team-text h4{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    #team .team-member .team-text h5{
+        font-size: 13px;
+    }
+
+    #team .team-member:hover .team-text ul{
+        padding-top: 10px;
+    }
+
+    #team .team-member .team-image{
+        height: 200px;
+    }
+
+    #team .team-member .team-image img{
+        width: 70%;
+    }
+
+    #team .row .col-xxl-3:nth-child(3) .team-member .team-image img{
+        width: 100%;
+        margin-left: -25px;
+    }
+
+    /* =============== TEAM PART END =============== */
+
+
+    /* =============== BRANDS PART START =============== */
+
+    #brands{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #brands .clip-top
+    #brands .clip-bottom{
+        max-height: 31px;
+    }
+
+    #brands .brands .brand{
+        margin: 10px auto;
+        height: 100px;
+        max-width: 222px;
+    }
+
+    /* =============== BRANDS PART END =============== */
+
+
+    /* =============== FOOTER PART START =============== */
+
+    #footer .footer-logo{
+        padding-top: 20px;
+    }
+
+    #footer #contact{
+        padding: 0;
+    }
+
+    #footer #contact .contact-details{
+        border-right: none;
+        padding: 30px 0;
+        position: relative;
+    }
+
+    #footer #contact .contact-details::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        border-bottom: 1px solid rgba(254, 198, 0, 0.25);
+        width: 80%;
+        height: 1px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    #footer #contact .contact-details:last-child::after{
+        display: none;
+    }
+
+    #footer #contact .contact-links{
+        max-width: 320px;
+    }
+
+    /* =============== FOOTER PART END =============== */
+
+
+}
+
+/*      ==============================
+              XS DEVICE PART END
+        ==============================      */
